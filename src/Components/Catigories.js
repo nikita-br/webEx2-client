@@ -20,7 +20,6 @@ class Catigories extends Component {
         const  catigoriesItems = this.state.catigories.map(post => (
             <div key={post._id}>
                 <h3>{post.name}</h3>
-                <p>{post.__v}</p>
             </div>
         ));
         return (

@@ -17,7 +17,7 @@ class Header extends Component {
         return (
             <div style={this.header}>
                 <NavLink exact to="/" activeStyle={this.active}>
-                Home
+                Get all Companies
                 </NavLink>
                 <NavLink to="/catigories" activeStyle={this.active}>
                     Get All Catigories
